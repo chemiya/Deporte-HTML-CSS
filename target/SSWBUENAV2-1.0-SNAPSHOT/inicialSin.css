@@ -1,0 +1,1857 @@
+*{
+    box-sizing: border-box;/*asico*/
+    /*margin:0;
+    padding:0;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.buttons input{
+    vertical-align: middle;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 999px;
+    color: #000000;
+    text-align: center;
+}
+.buttons input:hover{
+    background-color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fotos-programa-desc{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;/*para que salga la foto correca*/
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;/*la imgane como un bloque*/
+    margin:0 auto;
+}
+
+
+
+/*nuevo anadir*/
+#titulo-anadir{
+    text-align:center;
+}
+
+#titulo-buscar{
+    text-align:center;
+}
+
+#cont1{
+   background-color:rgb(205, 159, 248);
+   display:flex;
+   justify-content: space-evenly;
+   padding:20px;
+   margin:20px;
+   align-items:center;
+}
+
+.boton-centrar-nuevo{
+    text-align:center;
+}
+.boton-centrar-nuevo1>a{
+    text-decoration:none;
+    color:white;
+}
+
+.boton-centrar-nuevo1{
+    border:2px solid white;
+}
+
+
+#resB{
+    text-align:center;
+}
+.botonAnadirCrear{
+    background: blueviolet;
+    
+}
+
+#cuadro-duracion{
+    display:flex;
+    background: rgb(205, 159, 248);
+    margin:20px;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#tituloExitoAnadir{
+    text-align:center;
+}
+.botonOpcionExito{
+    background: blueviolet;
+}
+
+.botonOpcionExito>a{
+    text-decoration: none;
+    color:white;
+    font-size:30px;
+}
+
+#contenido-entrenamientoPlan{
+    background: blueviolet;
+    color:white;
+    font-weight: bold;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:20px;
+    width:80%;
+    margin: 0 auto;
+}
+
+#titulo-Registro-Plan{
+    text-align:center;
+   
+}
+
+#mostrarValoracionExito{
+    display:none;
+}
+
+#boton-Registro-Plan-Exito{
+    
+    background: blueviolet;
+}
+#centro-Exito-Plan{
+    text-align:center;
+}
+#boton-Registro-Plan-Exito>a{
+    text-decoration: none;
+    font-size:25px;
+    color:white;
+}
+#contenido-entrenamientoPlan>p,h1{
+    text-align:center;
+}
+
+#contenedorExito{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+.botonAnadirCrear>a{
+    text-decoration:none;
+    color:white;
+}
+.ejercicioBuscador{
+    display:flex;
+    justify-content: space-evenly;
+    border: 3px solid blueviolet;
+    margin:30px;
+}
+
+.datos{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    width:70%;
+    align-items:center;
+}
+
+
+
+/*nuevo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.principal{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: flex;/*los separamos y los ponemos en fila. el nombre  de la empresa y el menu*/
+    
+    align-items: center;/*para centrarlos*/
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;/*el menu lo separamos y lo ponemos en fila*/
+    
+    text-align: center;
+   
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #fff;
+    position: fixed;/*header con el menu maximo ancho y no se mueve*/
+    width: 100%;
+    top: 0;
+}
+
+
+
+header a{
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    font-size:20px;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+
+
+.opiniones{
+    width:100%;
+    height:300px;
+   
+    flex-direction:row;
+    display:flex;/*los servicios se distrinuyen*/
+    justify-content: space-between;/*para separalos*/
+    align-items: center;/*para centrarlos*/
+    margin-top:30px;
+}
+
+.opinion img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;/*para que salga la foto correca*/
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;/*la imgane como un bloque*/
+    margin:0 auto;
+}
+
+.hacer{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:50% 50%;
+    height:300px;
+}
+
+
+
+
+.opinion{
+    width: 28%;
+    text-align: center;
+    background-color: beige;
+    border-radius:15%;
+    padding:15px;
+}
+
+.contenedor-hacer>h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.carta{
+    display:flex;
+    flex-direction:row;
+    
+    background-color:rgb(205, 159, 248);
+    margin: 0px 0px 20px 20px;
+    padding: 0;
+    border:3px solid black;
+}
+
+.carta img{
+    margin: 0;
+    padding: 0;
+}
+
+.carta-texto{
+    margin: 0;
+    padding:20px;
+}
+
+.carta-texto h2{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top:100px;
+}
+
+.contacto>h2{
+    color:white;
+    text-align:center;
+}
+
+.contacto>p{
+    text-align:center;
+    color:white;
+}
+.valoraciones>h1{
+    text-align:center;
+}
+
+.valoraciones{
+    background-color: rgb(156, 65, 209);
+    padding:50px;
+}
+
+#hero{
+    display: flex;/*los separamos y en columna en el centro*/
+    align-items: center;/*para la anchura*/
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("fotos/ejercicio1.jpg");/*imagen de fondo*/
+    background-repeat: no-repeat;/*si queda pequeña no se repita*/
+    background-size: cover;/*cubra todo el spacio*/
+    background-position: center center;/*colocarla en el centro*/
+}
+
+#hero h1{
+    color: white;
+    font-size: 5em;
+}
+
+#hero p{
+    color: white;
+    font-size: 2em;
+}
+
+.contenedor-hacer{
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+/*//////AJUSTES CUENTA//////*/
+.medicion{
+    display:flex;
+    margin:20px;
+    justify-content: space-evenly;
+    width:100%;
+    align-items:center;
+}
+
+.medicion p{
+    display:inline-block;
+    width:300px;
+}
+
+.notif{
+    display:flex;
+    align-items:center;
+
+}
+
+#button-guardar {
+    text-align: center;
+}
+
+#button-guardar button{
+    width:30%;
+    font-size:25px;
+    color:white;
+    background-color: blueviolet;
+}
+
+#conjunto-notif{
+    display:flex;
+    flex-direction:column;
+    border:3px solid blueviolet;
+    margin:20px;
+    padding:20px;
+    border-radius:5px;
+}
+
+#conj-unidades{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(205, 159, 248);
+    width:100%;
+    margin:0 auto;
+}
+
+
+/*/////BUSC ENTRE/////*/
+
+.titulo-pagina{
+    text-align:center;
+    font-size:40px;
+}
+
+#contenedor{
+    width:90%;
+    background-color: rgba(247, 247, 247, 0.979);
+    margin:0 auto;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.seccion{
+    width:90%;
+    background-color: blueviolet;
+    margin:15px;
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion>select{
+    width:200px;
+    margin-left:20px;
+    height:50px;
+    
+    
+}
+
+.seccion >label{
+    font-weight: bold;
+    color:white;
+    font-size:20px;
+    display:inline-block;
+    width:270px;
+}
+
+.entrenamiento{
+    display:flex;
+    margin:20px;
+    border:4px solid blueviolet;
+    border-radius: 10px;
+}
+
+.entrenamiento img{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    padding:30px;
+}
+
+.texto-entrenamiento{
+    padding:10px;
+    width:100%;
+}
+
+.descripcion{
+   display:flex;
+   justify-content: space-between;
+   background-color: blanchedalmond;
+   margin:20px;
+   border:1px solid black;
+    
+}
+
+.descripcion>p{
+    margin:40px;
+    font-size:30px;
+}
+
+.texto-entrenamiento>a{
+    text-decoration: none;
+    font-size:30px;
+    color:blueviolet;
+}
+.texto-entrenamiento> a:hover{
+    text-decoration: underline;
+}
+
+#contenedor button{
+    width:150px;
+    font-size:30px;
+    color:white;
+    background-color: blueviolet;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/*/////CREAR ENTRE/////*/
+
+#buscador{
+    width:40%;
+    
+    display:flex;
+    flex-direction:column;
+}
+
+#contenedor-operaciones{
+    width:100%;
+    display:flex;
+    
+    height:1000px;
+}
+
+#filtros{
+    border:3px solid blueviolet;
+    width:80%;
+    height:30%;
+    margin:20px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+#filtros button{
+    background-color: blueviolet;
+    color:white;
+    font-size:19px;
+}
+#valores-basicos h1{
+    text-align:center;
+}
+
+.form-group input{
+    width:100px;
+}
+
+#filtros button{
+    width:50%;
+}
+#resultados{
+    
+    width:100%;
+    height:70%;
+
+}
+
+#contenedor-campos{
+  
+    width:50%;
+}
+.area-descripcion{
+    width:50%;
+    background-color: white;
+    border-radius:8px;
+    padding:10px;
+
+    
+    margin:10px auto;
+}
+
+
+#buscador h2{
+    text-align:center;
+}
+
+#resultados h2{
+    text-align:center; 
+}
+
+#boton-guardar{
+    margin-top:100px;
+    width:90%;
+   display:flex;
+   justify-content: center;
+}
+
+#boton-guardar button{
+    margin:20px auto;
+    width:30%;
+    height:35px;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    height:80px;
+    font-size:25px;
+}
+
+#anadir{
+    width:25%;
+    background-color: rgb(205, 159, 248);
+    height:45%;
+    padding:10px;
+    margin-top:50px;
+    border-radius:6px;
+
+    
+
+}
+
+.informacion .principal{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.botones button{
+    background-color: blueviolet;
+    color:white;
+    font-size:15px;
+}
+
+.datos>p{
+    font-weight:bold;
+    font-size:25px;
+}
+
+#anadir button{
+    background-color: blueviolet;
+    color:white;
+    font-size:18px;
+}
+#repeticiones{
+    border:3px solid blueviolet;
+    margin:5px;
+}
+
+#anadir #centrar{
+    text-align:center;
+}
+
+#acumulador{
+    width:40%;
+    
+
+}
+
+#filtros-conjunto{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.crear-entre label{
+    display: inline-block;
+    width: 80px;
+    
+  }
+
+.form-group{
+    width:90%;
+    
+    display:flex;
+    justify-content: center;
+    margin:5px;
+    padding:5px;
+
+}
+#tiempo{
+    border:3px solid blueviolet;
+    margin:5px;
+}
+
+
+.crear-entre select{
+    width:100px;
+}
+#acumulador h2{
+    text-align:center;
+}
+
+.crear-entre img{
+    width:130px;
+    height:130px;
+}
+
+.seleccionar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.botones{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    
+
+}
+
+.informacion{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+
+}
+
+.datos-ejer{
+    display:flex;
+    margin:10px;
+    justify-content: space-between;
+    width:100%;
+    
+}
+
+.ejercicio-anadido{
+    display:flex;
+    padding:20px;
+    border:1px solid black;
+    margin:15px;
+    background-color: blanchedalmond;
+    
+}
+
+.ejercicio{
+    display:flex;
+    margin:20px;
+    padding:20px;
+    border:3px solid blueviolet;
+
+}
+
+.datos{
+    margin:20px;
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    align-items:center;
+}
+
+.entrada{
+    display:flex;
+    padding:10px;
+    align-items: center;
+}
+.entrada input{
+    height:15px;
+}
+
+.option{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+.campo{
+    display:flex;
+    margin:10px auto;
+    width:70%;
+    justify-content: space-evenly;
+    padding:10px;
+    background-color: white;
+    border-radius:8px;
+    
+}
+
+#contenedor-total{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    width:90%;
+    background-color: rgb(205, 159, 248);
+    padding:10px;
+    
+}
+
+
+.campo p{
+    display:inline-block;
+    width:150px;
+}
+
+.area-descripcion textarea{
+    width:100%;
+}
+
+/*/////DESCRIPCION EJER/////*/
+
+#contenido-entrenamiento{
+    width:75%;
+    height:400px;
+    background-color: blueviolet;
+    margin: 50px auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:15px;
+    padding:10px;
+
+
+}
+
+#contenido-entrenamiento>a{
+    border-radius: 50%;
+    background-color: greenyellow;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:10px;
+    border:1px solid blue;
+    font-weight: bold;
+}
+#contenido-entrenamiento h1{
+    color:white;
+    font-weight: bold;
+}
+
+.text-descrip{
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+}
+
+.valor{
+    color:white;
+    font-size:16px;
+    
+
+}
+
+#centrar{
+    text-align:center;
+}
+
+#desc{
+    text-align:center;
+}
+
+.ejercicio{
+    display:flex;
+    flex-direction:row;
+    
+    margin-bottom:50px;
+   
+    /*width:450px;*/
+    padding:20px;
+    margin:20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.conjunto{
+    
+    background-color: #dbd9d9;
+    padding:15px;
+   
+    
+}
+
+.datos-ejercicio{
+    margin-left:20px;
+}
+
+.conjunto{
+    width:500px;
+    margin:0 auto;
+}
+
+#contenido-ejercicios>h1{
+    text-align:center;
+    font-size:30px;
+}
+
+#opiniones{
+    display:flex;
+    
+    margin:20px;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+#opiniones .cartad{
+    width:625px;
+    height:100px;
+    background-color: #fff;
+    margin:10px;
+    border-radius:15px;
+}
+
+#contenedor-opiniones{
+    margin-top:50px;
+    background-color:rgb(205, 159, 248);
+    width:80%;
+    margin:0 auto;
+    border-radius:20px;
+    margin-top:50px;
+}
+
+#contenedor-opiniones>h1{
+    text-align:center;
+    font-weight: bold;
+    color:white;
+}
+
+#opiniones .cartad img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cartad{
+    display:flex;
+    padding:10px;
+}
+
+.cartad .texto-opinion{
+    margin-left:10px;
+}
+
+/*/////EDITAR PERFIL/////*/
+
+#foto-perfil img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin:30px auto;
+}
+
+#foto-perfil{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+
+
+
+#entradas label{
+    display: inline-block;
+    width: 120px;
+    
+  }
+
+.form-group{
+    width:60%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    margin:20px;
+    padding:20px;
+    margin: 20px auto;
+    border-radius:10px;
+
+}
+
+#guardar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#modificaciones{
+    width:80%;
+    border-radius:10px;
+    margin: 15px auto;
+    background-color:rgb(205, 159, 248);
+    padding:20px;
+}
+
+#modificaciones h1{
+    text-align:center;
+}
+
+#guardar button{
+    width:30%;
+    font-size:20px;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+}
+
+
+/*/////HISTORIAL/////*/
+#contenedor-usuario img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin:30px auto;
+}
+
+#contenedor-inicio{
+    display:flex;
+    flex-direction:row;
+    margin-top:20px;
+    border:5px solid blueviolet;
+    margin:20px;
+    border-radius:6px;
+}
+
+#medidas{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    
+
+}
+
+.realizacion a{
+   
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    
+}
+
+.realizacion button{
+    background-color: blueviolet;
+}
+
+
+
+
+
+#contenedor-usuario{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:50%;
+    background-color: blueviolet;
+    
+    justify-content: space-evenly;
+
+}
+
+#usuario-datos>p{
+    font-size:40px;
+    margin:35px;
+    font-weight:bold;
+    color:white;
+}
+
+#medidas>p{
+    font-size:30px;
+    color:white;
+    
+    
+}
+
+#contenedor-resumen{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    width:50%;
+}
+#contenedor-resumen>p{
+    font-size:25px;
+}
+
+.realizacion{
+    display:flex;
+    flex-direction:row;
+    margin:20px;
+    border:5px solid blueviolet;
+    padding:8px;
+    border-radius:10px;
+    
+}
+
+.realizacion img{
+    width:200px;
+}
+
+.datos-realizacion h3{
+    font-size:24px;
+}
+
+.dia-realizacion p{
+    font-size:19px;
+}
+
+.datos-realizacion{
+    margin-left:20px;
+    width:100%;
+
+}
+
+.dia-realizacion{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-evenly;
+    
+}
+
+.dia-realizacion p{
+    font-size:25px;
+}
+
+#resultados{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.filtroh{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.filtroh>p{
+    margin-right:20px;
+}
+
+#aplicacion-filtros{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#resultados h2{
+    text-align:center;
+    font-size:29px;
+}
+
+#consultar-actividad{
+    background-color: rgb(205, 159, 248);
+    
+    padding:20px;
+    width:80%;
+    margin: 0 auto;
+    border-radius:10px;
+}
+#aplicacion-filtros > p{
+    font-size:29px;
+    font-weight: bold;
+}
+
+#aplicacion-filtros button{
+    width:25%;
+    font-size:20px;
+    background-color: blueviolet;
+    color:white;
+}
+
+
+/*/////LOGIN/////*/
+
+.login-form {
+    transform: translate(0px, 120px);
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 180px;
+    background-color: #ffffff;
+    width: 30%;
+    border: 3px solid #000000;
+    padding: 10px 20px 10px 20px;
+    line-height: 1.5em;
+    z-index:-10;
+}
+/* Centrar titulos */
+.login-form h1{
+    text-align: center;
+}
+
+.login-form label{
+    display: block;
+    margin-top: 20px;
+}
+
+.login-form input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+}
+
+.login-form input[type=password]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+}
+
+#login-form-short input[type=text]{
+    width: 3em;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#login-form-short label{
+    display: inline;
+}
+
+.login-form input[type=submit] {
+    display: block;
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 999px;
+    color: #000000;
+    text-align: center;
+}
+
+.login-form input[type=submit]:hover {
+    background-color: #dddddd;
+}
+
+
+/*/////PRINCIPAL REGISTRADO/////*/
+
+#contenedor-grid{
+    display:grid;
+    
+    width:95%;
+    height:1000px;
+    grid-template-columns:25% 75%;
+    padding:30px;
+}
+
+#contenedor-lateral{
+    background-color: blueviolet;
+    margin-right:20px;
+}
+
+#contenedor-central{
+    
+    display:grid;
+    grid-template-rows:20% 40% 40%;
+
+}
+
+#calendario{
+    border:3px solid blueviolet;
+    margin-bottom:20px;
+    border-radius:8px;
+}
+
+#recomendados{
+   border:3px solid blueviolet;
+    margin-bottom:20px;
+    border-radius:8px;
+}
+
+
+#contenido-usuario #usuario-imagen{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin:30px auto;
+}
+
+#contenido-usuario #uvafit-imagen{
+    width:100%;
+    object-fit:cover;
+}
+
+#contenido-usuario{
+    text-align:center;
+    font-size:25px;
+}
+
+#opciones{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+#contenido-usuario p{
+    font-size:30px;
+    color:white;
+    font-weight: bold;
+}
+
+#ayuda button{
+    background-color: blueviolet;
+    font-size:20px;
+    color:white;
+}
+
+#opciones a{
+    text-decoration:none;
+    color:white;
+    margin:30px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#opciones a:hover{
+    text-decoration:underline;
+}
+
+#calendario h2{
+    margin:10px;
+}
+
+#cuadros{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+    height:80%;
+}
+
+.cuadro-dia{
+    
+    background-color:blanchedalmond;
+    border:1px solid black;
+    margin-bottom:25px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.datos-dia{
+    margin:10px;
+}
+
+#contenedor-recomendado img{
+    width:150px;
+    height:150px;
+    margin:10px;
+}
+
+#recomendados h2{
+    margin:10px;
+
+}
+
+#entrenamientos-recomendados{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+#contenedor-recomendado{
+    margin:10px;
+    border:1px solid black;
+    background-color: blanchedalmond;
+    padding:5px;
+}
+
+.texto-recomendado p{
+    font-weight:bold;
+    margin-left:5px;
+}
+
+.entrenamiento-realizado{
+    margin:10px;
+    background-color: blanchedalmond;
+    height:23%;
+    padding:7px;
+    border:1px solid black;
+   
+}
+
+.entrenamiento-realizado >p{
+    font-weight:bold;
+    font-size:16px;
+}
+
+.datos-realizacion{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin:9px;
+    
+}
+
+#ultimos-entrenamientos{
+    width:50%;
+    border: 3px solid blueviolet;
+    padding:10px;
+    border-radius:8px;
+    margin:10px;
+    
+}
+
+#ultimos{
+    display:flex;
+}
+
+#ayuda{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border: 3px solid blueviolet;
+    padding:10px;
+    border-radius:8px;
+    margin:10px;
+}
+
+#ayuda button{
+    width:50%;
+    height:15%;
+    margin-top:20px;
+   
+}
+
+.datos-dia a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.texto-recomendado a{
+    text-decoration:none;
+    color:black;
+}
+
+.texto-recomendado a:hover{
+    text-decoration:underline;
+}
+
+.datos-dia a:hover{
+    text-decoration:underline;
+}
+
+
+/*/////PROGRAMA DESC/////*/
+
+#contenido-entrenamiento{
+    width:75%;
+    height:500px;
+    background-color: blueviolet;
+    margin: 50px auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:15px;
+    padding:30px;
+
+
+}
+
+#contenido-entrenamiento>a{
+    border-radius:50%;
+    background-color: greenyellow;
+    padding:10px;
+    text-decoration: none;
+    margin-top:10px;
+    border:1px solid blue;
+    font-weight: bold;
+}
+#contenido-entrenamiento h1{
+    color:white;
+    font-weight: bold;
+}
+
+.datos-ejer >p{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.dia-numero{
+    width:25%;
+}
+
+.datos img{
+    width:150px;
+    height:150px;
+}
+
+.ejer-desc{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    
+}
+
+.datos{
+    display:flex;
+    justify-content: space-evenly;
+    width:75%;
+    
+    
+
+}
+
+.text-descrip{
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+}
+
+.valor{
+    color:white;
+    font-size:16px;
+    
+
+}
+
+.dia{
+    display:flex;
+    margin:20px;
+    background-color: rgb(205, 159, 248);
+    padding:10px;
+    border-radius:10px;
+    
+    
+}
+
+.dia-numero p{
+    text-align:center;
+    padding-top:20px;
+    font-weight:bold;
+    font-size:30px;
+    
+    
+}
+
+.dia-numero{
+    border:3px solid blueviolet;
+    border-radius:6px;
+    background-color: blanchedalmond;
+    
+}
+
+#centrar{
+    text-align:center;
+}
+
+#desc{
+    text-align:center;
+}
+
+.datos-ejer{
+    
+    width:60%;
+}
+
+
+#opinionesp{
+    display:flex;
+    
+    margin:20px;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+#opinionesp .cartap{
+    width:625px;
+    height:100px;
+    background-color: #fff;
+    margin:10px;
+    border-radius:15px;
+}
+
+#contenedor-opiniones{
+    margin-top:50px;
+    background-color:rgb(205, 159, 248);
+    width:80%;
+    margin:0 auto;
+    border-radius:20px;
+}
+
+#contenedor-opiniones>h1{
+    text-align:center;
+    font-weight: bold;
+    color:white;
+}
+
+#opinionesp .cartap img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cartap{
+    display:flex;
+    padding:10px;
+}
+
+.cartap .texto-opinionp{
+    margin-left:10px;
+}
+
+
+/*/////VALORACION/////*/
+
+#datos{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border:3px solid blueviolet;
+    width:70%;
+    margin:0 auto;
+}
+
+#contenedor-datos h1{
+    text-align:center;
+}
+
+#contenido-opinionv{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+#puntuacion{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:75%;
+    border:3px solid blueviolet;
+    padding:10px;
+    margin: 0 auto;
+    border-radius:10px;
+}
+
+
+#puntuacion label{
+    display:inline-block;
+    width:400px;
+    font-size:20px;
+}
+
+#comentario textarea{
+    width:100%;
+}
+
+#datos-realizacion{
+    font-size:20px;
+    background-color: blueviolet;
+    padding:10px;
+    width:50%;
+    
+}
+
+#datos-realizacion p{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+
+#datos-ejercicio{
+    width:50%;
+    padding:20px;
+}
+
+#datos-ejercicio p{
+    text-align:center;
+    font-size:16px;
+}
+
+#contenedor-entradas{
+    width:80%;
+}
+
+#comentario{
+    background-color: rgb(205, 159, 248);
+    padding:20px;
+    margin:20px;
+}
+#comentario p{
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+}
+
+#contenido-opinionv button{
+    width:25%;
+    font-size:25px;
+    color:white;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+
+/*/////Entrenamiento/////*/
+
+#body{
+    background-color: #CA8BFF;
+}
+
+.desc p {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+    display: block;
+}
+
+#body h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    /*transform: translate(0px,120px);*/
+}
+
+.train-progress{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 80px;
+    width: 300px;
+}
+
+.train-progress h3{
+    color: #555555;
+    text-align: center;
+    font-size: 20px;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrap{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 16.875%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+}
+
+.progress-cont {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border-radius: 999px;
+    background-color: lightgrey;
+    vertical-align: middle;
+}
+
+.progress {
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    border-radius: 999px;
+    background-color: limegreen;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.progress-cont h2{
+
+}
+
+.buttons {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.buttons h2{
+    font-size: 40px;
+    margin-top: 0.1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buttons button{
+    vertical-align: middle;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    padding: 10px 30px;
+    background: transparent;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 999px;
+    color: #000000;
+    text-align: center;
+}
+
+.buttons button:hover{
+    background-color: #cccccc;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 15%;
+    background-color: blanchedalmond;
+    padding: 10px 10px 10px 10px;
+}
+.next h6{
+    margin-top: 10px;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.next p{
+    display: block;
+    margin-top: 5px;
+}
+
+#error{
+    color: #ee0000;
+    
+    text-decoration: underline;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
